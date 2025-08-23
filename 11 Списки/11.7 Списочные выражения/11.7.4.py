@@ -1,2 +1,3 @@
-# В одну строку 2
-print(*[i for i in input() if i.isdigit()], sep="")
+palindromes = [i for i in range(100, 1001) if str(i)[::] == str(i)[::-1]]
+
+print(palindromes)

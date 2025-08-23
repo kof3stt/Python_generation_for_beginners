@@ -1,4 +1,3 @@
-# В столбик 2
-s = input()
-for i in range(len(s) - 1, -1, -1):
-    print(s[i])
+s = "In 2010, someone paid 10k Bitcoin for two pizzas."
+
+print(s[-10])

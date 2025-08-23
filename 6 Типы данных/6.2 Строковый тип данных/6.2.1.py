@@ -1,4 +1,3 @@
-# What's Your Name?
-name = input()
-surname = input()
-print("Hello", name, surname + "!", "You have just delved into Python")
+print(
+    """ "Python is a great language!", said Fred. "I don't ever remember having this much fun before." """
+)

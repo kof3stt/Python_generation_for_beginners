@@ -1,6 +1,4 @@
-# Цифра 1
-text = input()
-total = 0
-for c in text:
-    total += int(c)
-print(total)
+# В столбик 2
+s = input()
+for i in range(len(s) - 1, -1, -1):
+    print(s[i])

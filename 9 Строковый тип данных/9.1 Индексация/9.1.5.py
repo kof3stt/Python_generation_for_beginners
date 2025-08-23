@@ -1,7 +1,3 @@
-# Цифра 2
-text = input()
-f = "Цифр нет"
-for c in text:
-    if c in "0123456789":
-        f = "Цифра"
-print(f)
+# ФИО
+name, surname, patronymic = input(), input(), input()
+print(surname[0], name[0], patronymic[0], sep="")

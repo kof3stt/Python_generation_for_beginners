@@ -1,2 +1,2 @@
-# Замени меня полностью 🔄
-print(input().replace("1", "one"))
+s = "Python rocks!"
+print(s[3])

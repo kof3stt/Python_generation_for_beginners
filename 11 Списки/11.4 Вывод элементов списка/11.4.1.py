@@ -1,9 +1,5 @@
-# Значение функции
-numbers_list = []
-func_list = []
-for _ in range(int(input())):
-    x = int(input())
-    numbers_list.append(x)
-    func_list.append(x**2 + 2 * x + 1)
-print(*numbers_list, sep="\n", end="\n\n")
-print(*func_list, sep="\n")
+numbers = [1, 78, 23, -65, 99, 9089, 34, -32, 0, -67, 1, 11, 111]
+total = 0
+for num in numbers:
+    total += num**2
+print(total)

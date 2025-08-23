@@ -1,8 +1,7 @@
-# Google search - 1
+# Без дубликатов
 my_list = []
 for _ in range(int(input())):
-    my_list.append(input())
-request = input()
-for string in my_list:
-    if request.lower() in string.lower():
-        print(string)
+    text = input()
+    if text not in my_list:
+        my_list.append(text)
+print(*my_list, sep="\n")

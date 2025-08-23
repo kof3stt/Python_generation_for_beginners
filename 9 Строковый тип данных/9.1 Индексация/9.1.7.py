@@ -1,7 +1,7 @@
-# Одинаковые соседи
+# Цифра 2
 text = input()
-k = 0
-for i in range(len(text) - 1):
-    if text[i] == text[i + 1]:
-        k += 1
-print(k)
+f = "Цифр нет"
+for c in text:
+    if c in "0123456789":
+        f = "Цифра"
+print(f)

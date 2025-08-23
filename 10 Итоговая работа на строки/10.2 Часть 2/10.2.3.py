@@ -1,2 +1,2 @@
-# Удали меня полностью ❌
-print(input().replace("@", ""))
+s = "Python rocks!"
+print(s[1:5])

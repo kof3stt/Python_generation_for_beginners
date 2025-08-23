@@ -1,3 +1,4 @@
-# Футбольная команда ⚽
-team = input()
-print("Футбольная команда", team, "имеет длину", len(team), "символов")
+# What's Your Name?
+name = input()
+surname = input()
+print("Hello", name, surname + "!", "You have just delved into Python")

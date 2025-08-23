@@ -1,10 +1,14 @@
-# Арифметические строки 🌶️
+# Три города 🏙️
 a, b, c = input(), input(), input()
-if (
-    len(a) == (len(b) + len(c)) / 2
-    or len(b) == (len(a) + len(c)) / 2
-    or len(c) == (len(a) + len(b)) / 2
-):
-    print("YES")
-else:
-    print("NO")
+if len(a) <= len(b) and len(a) <= len(c):
+    print(a)
+elif len(b) <= len(a) and len(b) <= len(c):
+    print(b)
+elif len(c) <= len(a) and len(c) <= len(b):
+    print(c)
+if len(a) >= len(b) and len(a) >= len(c):
+    print(a)
+elif len(b) >= len(a) and len(b) >= len(c):
+    print(b)
+elif len(c) >= len(a) and len(c) >= len(b):
+    print(c)

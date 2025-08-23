@@ -1,3 +1,4 @@
-# ФИО
-name, surname, patronymic = input(), input(), input()
-print(surname[0], name[0], patronymic[0], sep="")
+# В столбик 1
+s = input()
+for i in range(0, len(s), 2):
+    print(s[i])

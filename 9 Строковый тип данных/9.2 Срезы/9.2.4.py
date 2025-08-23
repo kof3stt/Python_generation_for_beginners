@@ -1,3 +1,2 @@
-# Две половинки
-text = input()
-print(text[len(text) // 2 + len(text) % 2 :] + text[: len(text) // 2 + len(text) % 2])
+s = "In 2010, someone paid 10k Bitcoin for two pizzas."
+print(s[::-1])

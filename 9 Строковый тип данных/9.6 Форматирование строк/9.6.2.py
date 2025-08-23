@@ -1,7 +1,3 @@
-# Сумма кубов 🆚 Куб суммы
-a, b = int(input()), int(input())
-print(
-    f"Для чисел {a} и {b}:\n\
-  Сумма кубов: {a}**3 + {b}**3 = {a**3 + b**3}\n\
-  Куб суммы: ({a} + {b})**3 = {(a+b)**3}"
-)
+s = "In {}, someone paid {} {} for two pizzas."
+
+print(f'In {2010}, someone paid {"10K"} {"Bitcoin"} for two pizzas.')

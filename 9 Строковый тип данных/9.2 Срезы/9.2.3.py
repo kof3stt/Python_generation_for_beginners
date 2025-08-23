@@ -1,13 +1,2 @@
-# Делаем срезы 2
-s = input()
-print(
-    s[2],
-    s[-2],
-    s[:5],
-    s[: len(s) - 2],
-    s[::2],
-    s[1 : len(s) : 2],
-    s[::-1],
-    s[-1::-2],
-    sep="\n",
-)
+s = "In 2010, someone paid 10k Bitcoin for two pizzas."
+print(s[::7])

@@ -1,3 +1,3 @@
-# Курсы валют 💹
-date, eur, cny = input(), float(input()), float(input())
-print("На {}: 1€ = {}₽, 1¥ = {}₽".format(date, eur, cny))
+s = "In {0}, someone paid {1} {2} for two pizzas."
+
+print(s.format(2010, "10k", "Bitcoin"))
